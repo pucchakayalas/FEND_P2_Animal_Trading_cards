@@ -1,5 +1,21 @@
 /* add your CSS here */
 h1 {
-	font-family: sans-serif;
-	color:green;
+	font-family: Arial;
+}
+
+.pic img{
+	width: 100%;
+}
+
+.description {
+	font-style: italic;
+	width: 100%;
+}
+
+.taxonomy {
+	font-style: bold;
+}
+
+.etymology {
+     font-style: italic;
 }
