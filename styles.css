@@ -1,26 +1,72 @@
 /* add your CSS here */
-h1 {
-	font-family: Arial;
+#box {
+    font-family: Arial;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    margin-top: 4em;
+	margin-right: 2.5em;
+	margin-left: 2.5em;
+	margin-bottom: 30%;
+    border: solid #C0C0C0;       
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    /*http://www.cssmatic.com/box-shadow*/
+   -webkit-box-shadow: 0px 5px 9px 2px rgba(192,192,192,0.5);
+   -moz-box-shadow: 0px 5px 9px 2px rgba(192,192,192,0.5);
+   box-shadow: 0px 5px 9px 2px rgba(192,192,192,0.5);     
+ }
+
+#hfish{
+	padding-bottom: 0.5em;
+
 }
 
-.pic img{
-	width: 100%;
+#text {
+	
+	border: solid #C0C0C0;
+	margin-bottom: 1.5em;
+	padding-top: 0em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 0.5em;
+	
+}
+
+h1 {
+	margin-left: 0.2em;
+	padding: 0px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.pic img {
+		width: 300px;		
+		
+
 }
 
 .description {
 	font-style: italic;
-	width: 100%;
+	padding-bottom: 1em;
 }
 
-.taxonomy {
-	font-style: bold;
-}
 
-.etymology {
-     font-style: italic;
+.characteristics {
+     
      padding-top: 1em;
 }
 
 li span {
 	font-weight: bold;
+	font-style: normal;
+
+}
+
+li {
+	font-style: italic;
+	list-style: none;
+}
+
+ul {
+	padding-left: 0px;
 }
