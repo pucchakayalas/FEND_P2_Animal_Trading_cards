@@ -25,7 +25,6 @@
 	
 	border: solid #C0C0C0;
 	margin-bottom: 1.5em;
-	padding-top: 0em;
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-bottom: 0.5em;
@@ -34,7 +33,6 @@
 
 h1 {
 	margin-left: 0.2em;
-	padding: 0px;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 }
@@ -67,6 +65,3 @@ li {
 	list-style: none;
 }
 
-ul {
-	padding-left: 0px;
-}
